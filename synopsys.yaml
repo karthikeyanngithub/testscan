@@ -1,7 +1,6 @@
 name: CI-Polaris
 on:
-  pull_request:
-    branches: [ main ]
+  workflow_call:
 jobs:
   polaris-scan:
     runs-on: [ ubuntu-latest ]
